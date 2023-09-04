@@ -24,3 +24,4 @@ int main() {
 // >> is the bitwise right shift operator.  shifts the bits to the right by # positions:
 // << bitwise left shift operator. Shifts the bits to the left by # operations
 
+// logical comparisons and operators is the same as java
