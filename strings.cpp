@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+// cd /Users/joeyissa/Downloads/LearningCplus
+// ./strings
+
 int main() {
     string x = "hello world";
     int y = x.length();  // get length of string

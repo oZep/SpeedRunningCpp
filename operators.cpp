@@ -1,6 +1,9 @@
 # include <iostream>
 using namespace std;
 
+// cd /Users/joeyissa/Downloads/LearningCplus
+// ./operators
+
 int main() {
     int x = 5; // 0101
     x |= 3;  //bitwise OR operator, 0011
