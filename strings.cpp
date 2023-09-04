@@ -21,3 +21,6 @@ int main() {
 using namespace std line can be omitted and replaced with the std keyword, 
 followed by the :: operator for string (and cout) objects
 */
+
+// short hand Ternary Operator
+// variable = (condition) ? expressionTrue : expressionFalse; (almost like python)
