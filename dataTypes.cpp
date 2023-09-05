@@ -12,7 +12,7 @@ int main() {
     int myNum = 5; // 2 or 4 bytes
     float myFloatNum = 5.99; // Floating point number 4 bytes, Sufficient for storing 6-7 decimal digits
     double myDoubleNum = 9.98;  // Floating point number 8 bytes, Sufficient for storing 15 decimal digits
-    char myLetter = 'D';
+    char myLetter = 'D'; 
     bool myBoolean = true;
     string myText = "Hello";
 
