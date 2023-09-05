@@ -11,7 +11,21 @@ int main() {
     cars[0] = "Opel";
     cout << cars[0] << endl;
     cout << sizeof(cars) << endl; // use sizeof(): returns the size of a type in bytes.
-    cout << sizeof(cars)/sizeof(string); // To find out how many elements an array has, you have to divide the size of the array by the size of the data type it contains:
+    cout << sizeof(cars)/sizeof(string) << endl; // To find out how many elements an array has, you have to divide the size of the array by the size of the data type it contains:
+
+        // declaring a stucture
+    struct {             // Structure declaration
+    int myNum;         // Member (int variable)
+    string myString;   // Member (string variable)
+    } myStructure;       // Structure variable
+
+    // assign values to the members 
+    myStructure.myNum = 1;
+    myStructure.myString = "Hello World!";
+
+    cout << myStructure.myNum << "\n";
+    cout << myStructure.myString << "\n";
+
     return 0;
 }
 
@@ -19,3 +33,4 @@ int main() {
 
 // iterate through an array
 // for (int i = 0; i < sizeof(myNumbers) / sizeof(int); i++) 
+
