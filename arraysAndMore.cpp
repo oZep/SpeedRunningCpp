@@ -26,6 +26,13 @@ int main() {
     cout << myStructure.myNum << "\n";
     cout << myStructure.myString << "\n";
 
+    // A reference variable is a "reference" to an existing variable, and it is created with the & operator
+    string food = "Pizza";
+    string &meal = food;
+
+    cout << food << "\n";
+    cout << meal << "\n";
+
     return 0;
 }
 
