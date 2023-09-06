@@ -33,6 +33,9 @@ int main() {
     cout << food << "\n";
     cout << meal << "\n";
 
+    // use the & operator, and the result will represent where the variable is stored
+    cout << &food;
+
     return 0;
 }
 
